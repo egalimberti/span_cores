@@ -44,4 +44,15 @@ Run the following command from the folder 'span_cores/':
   'python span_cores.py prosper-loans sc --ver'
   
 ## Datasets
+
+#### Format
+  * space-separated files
+  * first line specifies, respectively,
+    * number of timestamps
+    * number of vertices
+    * number of edges
+  * following lines are in the format *tij i < j*, ordered by *t*
+  * timestamps' and vertices' identifiers start from 0
+  
+#### Contact
 Mail to [edoardo.galimberti@isi.it](mailto:edoardo.galimberti@isi.it) for the datasets missing in this repository.
